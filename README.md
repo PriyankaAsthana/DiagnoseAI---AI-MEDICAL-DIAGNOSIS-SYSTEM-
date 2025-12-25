@@ -89,5 +89,167 @@ Users **speak their symptoms naturally**, and DiagnoseAI processes them through 
        ↓
 ┌────────────────────┐
 │ Drizzle ORM + DB   │
-│ Secure Persistence│
+│ Secure Persistence │
 └────────────────────┘
+
+🧩 Technology Stack (Exact Usage)
+AI & Voice Layer
+OpenAI GPT
+
+Symptom interpretation
+
+Medically scoped reasoning
+
+Safe response generation
+
+AssemblyAI
+
+High-accuracy speech-to-text
+
+Handles accents & natural pauses
+
+Vapi
+
+Low-latency voice interaction
+
+Conversational state handling
+
+Backend
+Node.js
+
+API orchestration
+
+Consultation lifecycle handling
+
+Report generation logic
+
+Drizzle ORM
+
+Type-safe schema
+
+Structured medical records
+
+Consultation history persistence
+
+Authentication & Security
+Clerk
+
+User authentication
+
+Session isolation
+
+Secure access control
+
+Frontend
+Next.js
+
+Server-side rendering
+
+Route-level security
+
+React
+
+Interactive consultation UI
+
+TypeScript
+
+Strong typing across stack
+
+Tailwind CSS
+
+Accessible, responsive UI
+
+🧪 API Design (Concrete)
+Start Consultation
+http
+Copy code
+POST /api/consultation/start
+Creates a new voice session and initializes AI context.
+
+Process Symptoms
+http
+Copy code
+POST /api/consultation/process
+Handles transcribed symptoms, AI reasoning, and response generation.
+
+Generate Report
+h
+Copy code
+POST /api/report/generate
+Produces a structured medical summary for the session.
+
+Fetch History
+http
+Copy code
+GET /api/consultation/history
+Returns authenticated user’s consultation records.
+
+🧠 Safety & Constraint Design
+Prompt-level medical boundaries
+
+No absolute or definitive claims
+
+Symptom-based guidance only
+
+Explicit fallback responses
+
+Encourages professional consultation
+
+AI responses are assisted, scoped, and contextual — never authoritative.
+
+⚠️ Medical Disclaimer
+DiagnoseAI is not a diagnostic tool and does not replace medical professionals.
+
+All outputs are:
+
+Informational
+
+Preliminary
+
+Context-limited
+
+Users must consult qualified healthcare providers for diagnosis or treatment.
+
+🌍 Intended Use Cases
+Preliminary symptom exploration
+
+Accessibility-focused healthcare interfaces
+
+Elderly-friendly medical guidance
+
+Health-tech system architecture demos
+
+Responsible AI experimentation
+
+🏆 Why This Repo Is Different
+✔ End-to-end system, not a model demo
+✔ Voice-first by design, not an add-on
+✔ Medical safety constraints enforced
+✔ Real authentication & persistence
+✔ Production-ready architecture
+
+This repository demonstrates engineering judgment, not just AI capability.
+
+🧭 Roadmap
+diff
+Copy code
++ Multilingual voice support
++ Doctor referral workflows
++ Wearable health data ingestion
++ Explainable AI response layers
++ Regulatory-aligned safety checks
+📦 Deployment Status
+diff
+Copy code
++ Live Deployment
++ Secure Auth Enabled
++ Scalable Backend
++ Production-Grade
+<div align="center">
+DiagnoseAI
+Thoughtful AI for Real-World Healthcare
+
+AI in healthcare isn’t a model problem.
+It’s a design, safety, and context problem.
+
+</div>
