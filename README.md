@@ -83,14 +83,15 @@ Below is a visual flow — the canonical consultation lifecycle. Replace the Mer
 
 ```mermaid
 flowchart TD
-  A[User Voice] -->|WebRTC / Upload| B(AssemblyAI — STT)
+  A[User Voice] -->|WebRTC / Upload| B[AssemblyAI - STT]
   B --> C{AI Pipeline}
-  C -->|Interpret Symptoms| D[OpenAI GPT (Med Reasoning)]
+  C -->|Interpret Symptoms| D[OpenAI GPT<br/>Med Reasoning]
   D --> E[Response Validator & Safety Filters]
-  E --> F[Vapi / TTS (Voice Output)]
+  E --> F[Vapi / TTS<br/>Voice Output]
   E --> G[Node.js Backend]
-  G --> H[Drizzle ORM ➜ Database]
+  G --> H[Drizzle ORM - Database]
   H --> I[Consultation History & Reports]
+
   style A fill:#f0f9ff,stroke:#3b82f6
   style D fill:#fff7ed,stroke:#f59e0b
   style E fill:#fff1f2,stroke:#ef4444
