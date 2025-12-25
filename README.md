@@ -29,7 +29,7 @@
 
 A voice-first, medically constrained AI assistant built for real healthcare frontlines — not a generic chatbot. Users speak naturally and receive structured, safety-filtered, voice-enabled guidance and a persistent consultation record.
 
-Live demo: [Replace with your deployment link]() • Report issues: https://github.com/PriyankaAsthana/DiagnoseAI---AI-MEDICAL-DIAGNOSIS-SYSTEM-/issues
+Live demo: https://diagnoseai-ai-medical-system.onrender.com/ • Report issues: https://github.com/PriyankaAsthana/DiagnoseAI---AI-MEDICAL-DIAGNOSIS-SYSTEM-/issues
 
 <!-- Hero GIF (replace with a recorded demo in /assets/demo.gif) -->
 <div align="center">
